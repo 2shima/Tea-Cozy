@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+html, body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 0;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > img {
+  display: inline;
+  margin-left: 10px;
+  height: 50px;
+}
+
+header > nav > ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+header > nav > ul > li {
+  display: inline;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+a:any-link {
+  color: seashell;
+}
+a:hover {
+  color: gray;
+}
+
+section {
+  position: relative;
+  top: 69px;
+}
+
+#mission {
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: cover;
+  height: 700px;
+  max-width: 1200px;
+  position: relative;
+  top: 69px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+}
+
+.overlay {
+  width: 100%;
+}
+
+#featured {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.monthly {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea-type {
+  margin: 15px;
+}
+
+.tea-type img {
+  width: 300px;
+  height: 200px;
+}
+
+.tea-type h4 {
+  margin: 0 auto;
+  position: relative;
+  top: 10px;
+}
+
+#locations {
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: cover;
+  height: 500px;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+#locations h2 {
+  background-color: transparent;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+}
+
+.addresses {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: 100px;
+}
+
+.store-address {
+  width: 300px;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+address {
+  font-style: normal;
+  height: 200px;
+  position: relative;
+  top: 69px;
+}
+
+address a:any-link {
+  text-decoration: none;
+}
+
+footer {
+  position: relative;
+  top: 69px;
+  width: 100%;
+  margin-left: 20px;
+  text-align: left;
+}
